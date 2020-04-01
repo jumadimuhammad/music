@@ -163,18 +163,13 @@ body {
           transform: scale(1.02);
 }
 
-.container-footer {
-  margin-bottom: 100px !important;
-}
-
-.container-footer h1 {
+.foot {
   font-family: 'Sumana', serif;
 }
 
-.container-footer hr {
-  width: 10%;
-  border-top: 2px solid;
-  color: black;
+.foot .hr {
+  width: 15%;
+  border-top: 3px solid black;
 }
 
 .hr-boundary {
