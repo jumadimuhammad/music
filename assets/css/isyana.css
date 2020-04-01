@@ -64,8 +64,8 @@ body {
 }
 
 .row-4 img:hover {
-  -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
   cursor: pointer;
   -webkit-box-shadow: 0 0 2px white;
           box-shadow: 0 0 2px white;

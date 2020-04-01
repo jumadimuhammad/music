@@ -31,7 +31,8 @@ body {
     p {
         font-size: 16px;
     }
-    .card-img{
+
+    .card-img {
         box-shadow: 0 0 3px white;
     }
 }
@@ -49,7 +50,7 @@ body {
 
 .row-4 {
     img:hover {
-        transform: scale(1.06);
+        transform: scale(1.04);
         cursor: pointer;
         box-shadow: 0 0 2px white;
     }
