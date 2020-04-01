@@ -27,11 +27,32 @@ body {
     background-color: rgb(101, 104, 104);
 }
 
-.row-2 p{
-    font-size: 16px;
+.row-2 {
+    p {
+        font-size: 16px;
+    }
+    .card-img{
+        box-shadow: 0 0 3px white;
+    }
 }
-.row-3 p{
-    font-size: 13px;
+
+.row-3 {
+    p {
+        font-size: 13px;
+    }
+
+    .card:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 4px white;
+    }
+}
+
+.row-4 {
+    img:hover {
+        transform: scale(1.06);
+        cursor: pointer;
+        box-shadow: 0 0 2px white;
+    }
 }
 
 .row-5 {
@@ -42,8 +63,9 @@ body {
 
 .foot {
     font-family: 'Sumana', serif;
+
     .hr {
-        width: 15%;
+        width: 200px;
         border-top: 3px solid black;
     }
 }

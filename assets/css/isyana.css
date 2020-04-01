@@ -47,8 +47,28 @@ body {
   font-size: 16px;
 }
 
+.row-2 .card-img {
+  -webkit-box-shadow: 0 0 3px white;
+          box-shadow: 0 0 3px white;
+}
+
 .row-3 p {
   font-size: 13px;
+}
+
+.row-3 .card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
+}
+
+.row-4 img:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 2px white;
+          box-shadow: 0 0 2px white;
 }
 
 .row-5 iframe {
@@ -60,7 +80,7 @@ body {
 }
 
 .foot .hr {
-  width: 15%;
+  width: 200px;
   border-top: 3px solid black;
 }
 /*# sourceMappingURL=isyana.css.map */
